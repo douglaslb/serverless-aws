@@ -1,0 +1,40 @@
+{
+  "Records": [
+    {
+      "eventID": "503e494e7cae3f2198e33ae2b6a282ec",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1594832959,
+        "Keys": {
+          "nome": {
+            "S": "Flash"
+          },
+          "id": {
+            "S": "ebe407d0-c6bd-11ea-94f3-d192ab1d5739"
+          }
+        },
+        "NewImage": {
+          "createdAt": {
+            "S": "2020-07-15T17:09:19.693Z"
+          },
+          "nome": {
+            "S": "Flash"
+          },
+          "id": {
+            "S": "ebe407d0-c6bd-11ea-94f3-d192ab1d5739"
+          },
+          "poder": {
+            "S": "Velocidade"
+          }
+        },
+        "SequenceNumber": "1692500000000017261170319",
+        "SizeBytes": 142,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:412331479365:table/Heroes/stream/2020-07-15T06:09:56.032"
+    }
+  ]
+}
